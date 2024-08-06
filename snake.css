@@ -1,0 +1,75 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #272222;
+    font-family: Arial, sans-serif;
+}
+
+#titlePage {
+    text-align: center;
+    color: yellow;
+}
+
+#titlePage h1 {
+    margin-bottom: 20px;
+}
+
+#titlePage button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#titlePage button:hover {
+    background-color: #18521b;
+}
+
+#gameContainer {
+    position: relative;
+    
+}
+
+.score-card {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-size: 18px;
+    color: white;
+    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for readability */
+    border-bottom: 2px solid black;
+}
+
+#gameCanvas {
+    display: block;
+    margin: 40px auto 0;
+    border: 5px solid black;
+    background-color: aqua;
+}
+
+#restartButton {
+    display: block;
+    margin: 20px auto;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restartButton:hover {
+    background-color: #e53935;
+}

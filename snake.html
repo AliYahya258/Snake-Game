@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <div id="titlePage">
+        <h1>Welcome to the Snake Game!</h1>
+        <button id="startButton">Start Game</button>
+    </div>
+    <div id="gameContainer" style="display: none;">
+        <div class="score-card">Score: <span id="score">0</span></div>
+        <canvas id="gameCanvas" width="300" height="300"></canvas>
+        <div class="snake">
+            <!-- Snake segments will be drawn dynamically -->
+        </div>
+        <button id="restartButton" style="display: none;">Restart Game</button>
+    </div>
+    <script src="snake.js"></script>
+</body>
+</html>
